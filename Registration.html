@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+<form action="">
+	<fieldset class="backgroundColor">
+		<legend>Регистрация</legend>
+		<div>
+			<label for="email">E-mail:</label>
+			<input name="email" size="15" type="text" placeholder="test@test.com"/>
+		</div>
+		<div>
+			<label for="login">E-Логин:</label>
+			<input name="login" size="15" type="text" />
+		</div>
+		<div>
+			<label for="password">Пароль:</label>
+			<input name="password" size="15" type="password" />
+		</div>
+		<div>
+			<label for="gender">Пол:</label>
+			<input name="gender" value="female" type="radio"  checked/> Мужчина
+			<input name="gender" value="male" type="radio"  /> Женщина
+		</div>
+		<div>
+			<label for="realName">Настоящее имя:</label>
+			<input name="realName" size="15" type="text" />	
+		</div>
+		<div>
+			<label for="dob">Дата рождения:</label>
+						   <select id="parent">
+								<option selected='yes' value='1'>2005</option>
+								<option value='2'>2006</option>
+						   </select>
+						   -
+						   <select id="parent">
+								<option selected='yes' value='1'>Февраль</option>
+								<option value='2'>Январь</option>
+						   </select>
+						   -
+						   <select id="parent">
+								<option selected='yes' value='1'>4</option>
+								<option value='2'>5</option>
+						   </select>
+		</div>
+		<div>
+			<label for="dob">Место жительства:</label>
+							  <select id="parent">
+								<option selected='yes' value='1'>Луганск</option>
+								<option value='2'>Минск</option>
+							  </select>
+		</div>
+		<button type="submit">Регистрация </button>
+
+	</fieldset>
+</form>
+
+
+</body>
+</html>
