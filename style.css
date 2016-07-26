@@ -1,0 +1,40 @@
+.customFieldset  {
+	margin: auto;
+    background-color: #cce6ff;
+	width: 25%;
+	border: 1.25px solid black
+}
+.bordered {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+    border-bottom: 2px dashed lightblue;
+}
+form label {
+	display:block;
+	float:left;
+	width:150px;
+}
+input[type="text"] {
+    width: 200px;
+}
+input[type="password"] {
+    width: 200px;
+}
+button{
+	display:block;
+    margin: 0 auto;
+	height:30px;
+}
+.formated {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+.smallSelect{
+	width:50px
+}
+.mediumSelect{
+	width:80px
+}
+
+
+

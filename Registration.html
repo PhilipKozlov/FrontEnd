@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<form action="">
+			<fieldset class="customFieldset">
+				<legend>Регистрация</legend>
+				<div class="bordered">
+					<label for="email">E-mail:</label>
+					<input name="email" type="text" placeholder="test@test.com"/>
+				</div>
+				<div class="bordered">
+					<label for="login">Логин:</label>
+					<input name="login" type="text" />
+				</div>
+				<div class="bordered">
+					<label for="password">Пароль:</label>
+					<input name="password" type="password"/>
+				</div>
+				<div class="bordered">
+					<label for="gender">Пол:</label>
+					<input name="gender" value="female" type="radio"  /> Женщина
+					<input name="gender" value="male" type="radio"  checked/> Мужчина
+				</div>
+				<div class="bordered">
+					<label for="realName">Настоящее имя:</label>
+					<input name="realName" type="text" />	
+				</div>
+				<div class="bordered">
+					<label for="dob">Дата рождения:</label>
+					<select class="mediumSelect" name="year">
+						<option selected='yes' value='2005'>2005</option>
+						<option value='2006'>2006</option>
+					</select>
+					-
+					<select class="mediumSelect" name="month">
+						<option selected='yes' value="February">Февраль</option>
+						<option value="January">Январь</option>
+					</select>
+					-
+					<select class="smallSelect" name="day">
+						<option selected='yes' value="4">4</option>
+						<option value="5">5</option>
+					</select>
+				</div>
+				<div class="bordered">
+					<label for="address">Место жительства:</label>
+					 <select class="mediumSelect" name="city">
+						<option selected='yes' value="Lugansk">Луганск</option>
+						<option value="Minsk">Минск</option>
+					 </select>
+				</div>
+				<div class="formated">
+					<button type="submit">Регистрация</button>
+				</div>
+			</fieldset>
+		</form>
+	</body>
+</html>
