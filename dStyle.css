@@ -1,0 +1,18 @@
+.dialog{
+	position:fixed;
+	border:1px solid;
+	width:300px;
+	height:400px;
+	top: 50%;
+	left: 50%;
+    margin-top: -200px; 
+    margin-left: -150px;
+
+}
+.text{
+	text-align:center;
+	font-size:60px;
+	color:red;
+	height:100px;
+	margin:150px 0 0 0;
+}
