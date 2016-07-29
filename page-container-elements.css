@@ -1,0 +1,177 @@
+.container{
+	margin:0 auto;
+	width:1255px;
+	height:1575.5px;
+	/*padding:77.5px 57.5px 80.5px 60px;*/
+	border:1px solid;
+	
+}
+
+.left{
+	/*width:500px;*/
+	display: inline-block;
+}
+
+.right{
+	display: inline-block;
+	/*width:500px;*/
+	float:right;
+}
+
+.name-job{
+ 	/*padding:14px 134px 84px 0px; */
+	width:494px;
+	height:505px;
+	/*margin:0px 0px 0px 78px; */
+		border:1px solid;
+
+}
+
+.profile{
+	/*padding:14px 134px 84px 0; */
+	width:494px;
+	height:505px;
+	/*margin:0px 0px 0px -78px;*/
+	border:1px solid;	
+}
+
+.profile-icon{
+		width:75px;
+		height:73px;
+		background-image: url("PROFILE ICON.png");
+		font-size:41.655px;
+		color:#3d6cb0;
+
+}
+.profile-profile{
+
+		height:73px;
+		width:200px;
+		font-size:41.15px;
+		font-weight:bold;
+		color:#3d6cb0;
+		
+		margin:-100px 0 -50px 90px;
+}
+
+.hline{
+	width: 168px;
+	height: 5px;
+	background-color: #3d6cb0;
+	
+	margin:0px 150px 0px 290px;
+
+}
+
+.profile-text{
+	width:467.5px;
+	height:254px;
+	  font-size: 15.62px;
+  font-family: "Myriad Pro", Arial;
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: left;
+ 		margin:40px 0 0 0;
+
+	
+}
+
+.contact{
+	/*padding:14px 134px 84px 0; */
+	width:494px;
+	height:505px;
+	/*margin:-250px 0px 0px -78px; */
+	
+		border:1px solid;
+}
+
+.phone-icon{
+		width:72px;
+		height:72px;
+		background-image: url("Phone Icon.png");
+		font-size:41.655px;
+		color:#3d6cb0;
+
+}
+
+.contact-contact{
+		height:73px;
+		width:200px;
+		font-size:41.15px;
+		font-weight:bold;
+		color:#3d6cb0;
+		
+		margin:-100px 0 -50px 90px; 
+}
+
+.contact-table{
+	display:table;
+	margin:50px 0 0px 0px; 
+
+}
+.contact-row{
+	display:table-row;
+}
+.contact-cell{
+	display:table-cell;
+	padding: 20px;
+		  font-size: 20.575px;
+		  font-weight:bold;
+  font-family: "Myriad Pro", Arial;
+  color: #3d6cb0;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.contact-cell-value{
+	display:table-cell;
+	padding: 20px;
+		  font-size: 20.575px;
+  font-family: "Myriad Pro", Arial;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.experience{
+	/*padding:14px 134px 84px 0; */
+	width:494px;
+	height:505px;
+	/*margin:-250px 0px 0px -78px;*/
+	
+	border:1px solid;
+	/*float:right;*/
+}
+
+
+
+.skills{
+	/*padding:14px 134px 84px 0; */
+	width:494px;
+	height:505px;
+	/*margin:-250px 0px 0px -78px; */
+	
+		border:1px solid;
+		
+
+}
+
+.education{
+	/*padding:14px 134px 84px 0; */
+	width:494px;
+	height:505px;
+	/*margin:-250px 0px 0px -78px;*/
+	
+	border:1px solid;
+	/*float:right;*/
+
+}
+
+.software{
+	/*padding:14px 134px 84px 0; */
+	width:494px;
+	height:505px;
+	/*margin:-250px 0px 0px -78px;*/
+	
+	border:1px solid;
+	/*float:right;*/
+}

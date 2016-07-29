@@ -1,0 +1,59 @@
+.outer-elipse {
+  border:solid 2px rgb(61, 108, 176);
+  /*border-radius: 50%;*/
+  border-radius: 150px/150px;
+  width: 234px;
+  height: 234px;
+}
+
+.inner-elipse {
+  /*border-radius: 50%;*/
+    border-radius: 150px/150px;
+  background-color: rgb(61, 108, 176);
+  width: 205px;
+  height: 205px;
+  margin:15px;
+  
+} 
+
+.name {
+
+  font-size: 52.885px;
+  font-family: "Myriad Pro", Arial;
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: left;
+  margin:-30px 0 0 -15px;
+height:52.885px;
+  
+  	border:1px solid;
+
+}
+
+.surname{  	
+
+  font-size: 62.485px;
+  font-family: "Myriad Pro", Arial;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+   margin:-60px 0 0 -15px;
+   height:62.485px;
+   
+	border:1px solid;
+}
+
+.graphic-designer {
+  font-size: 25.29px;
+  font-family: "Myriad Pro", Arial;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+text-align:center;
+  margin:0 0 0 -220px;
+   height:25.29pxpx;
+   
+	border:1px solid;
+}
