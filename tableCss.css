@@ -1,0 +1,47 @@
+.bordered{
+	margin:0 auto;
+	border-radius:10px;
+}
+.table{
+	margin:0 auto;
+	/*border-collapse: collapse;*/
+	border-spacing:inherit;
+	border:2px solid black;
+	border-radius:7px;
+}
+
+td{
+	padding: 10px 70px 10px 10px;
+}
+tbody tr:hover{
+	cursor:pointer;  
+	background: linear-gradient(to right, yellow, white);
+	border-radius:10px;
+}
+
+th{
+	padding: 10px 70px 10px 10px;
+	background:black;
+	color:white;
+}
+
+th:hover{
+	cursor:default;  
+}
+
+td:first-child:after{
+	content:"($)";
+}
+
+td:first-child:first-letter{
+	color:red;
+}
+
+td:after{
+	content:"(mln)";
+}
+
+td {
+    border-right: 1px solid black;
+}
+
