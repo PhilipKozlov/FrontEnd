@@ -1,0 +1,116 @@
+.main{
+	margin:0 auto;
+	width:1000px;
+}
+
+.header{
+	width:100%;
+	background:lightgrey;
+}
+
+.menu{
+	background:#333;
+	color:white;
+	margin-bottom:25px;
+	width:100%;
+}
+
+.menu-item{
+	/*float:left;*/
+	padding-left:25px;
+	padding-right:25px;
+}
+
+.content{
+	margin-left:50px;
+}
+
+.epam-logo{
+	background-image: url("logo.png");
+	width:940px;
+	height:300px;
+	
+}
+
+.navigation{
+	float:left;
+	background:#333;
+	color:white;
+	border: 10px solid lightgrey;
+	padding-left:25px;
+	padding-right:25px;
+	margin-right:25px;
+	
+	list-style-type: none;
+	float:left;
+	background:#333;
+	color:white;
+	margin-right:50px;
+}
+
+.navigation tr{
+	margin-top:25px;
+	margin-bottom:25px;
+}
+
+.menu li:hover{
+	background:white;
+	color:black;
+	cursor:pointer;
+}
+
+.menu ul{
+	list-style-type: none;
+	float:left;
+	color:white;
+}
+
+/*ul{
+	list-style-type: none;
+	float:left;
+	background:#333;
+	color:white;
+	margin-right:50px;
+}*/
+
+li:hover{
+		background:white;
+	color:black;
+	cursor:pointer;
+}
+
+.table{
+	border:1px solid black;
+}
+
+.table tr{
+		border:1px solid black;
+			padding-right:50px;
+}
+
+.table td{
+		border:1px solid black;
+			padding-right:50px;
+}
+
+.table th{
+		border:1px solid black;
+			padding-right:50px;
+			background:lightgrey;
+}
+.footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+	margin-top:40px;
+	text-align:center;
+	background:lightgrey;
+	color:blue;
+}
+
+.level{
+	color:grey;
+	font-weight:bold;
+}
