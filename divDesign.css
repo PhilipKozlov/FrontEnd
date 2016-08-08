@@ -1,6 +1,6 @@
 .main{
 	margin:0 auto;
-	width:1000px;
+	width:100%;
 }
 
 .header{
@@ -9,31 +9,44 @@
 }
 
 .menu{
-	background:black;
+	background:#333;
 	color:white;
-	margin-bottom:25px;
+	margin-bottom:5px;
 	width:100%;
+	
+	list-style-type: none;
+	float:left;
+	background:#333;
+	color:white;
+	margin-right:50px;
+	text-align:left;
+}
 
+.header-menu{
+display:inline-block;
+}
 
+.menu li{
+	display: inline-block;
 }
 
 .menu-item{
-	float:left;
-	padding-left:25px;
+	/*padding-left:25px;*/
 	padding-right:25px;
 }
 
 .content{
-	float:left;
+	padding-top:25px;
 	margin-left:50px;
+	float:left;
 	width:50%;
 }
 
 .epam-logo{
-	background-image: url("logo.png");
-	width:940px;
-	height:300px;
-	
+	background-image: url("epam-logo.png");
+	width:330px;
+	height:120px;
+	display:inline-block;
 }
 
 .navigation{
@@ -43,15 +56,16 @@
 	border: 10px solid lightgrey;
 	padding-left:25px;
 	padding-right:25px;
-	margin-right:25px;
+	
+	float:left;
+	background:#333;
+	color:white;
+	overflow:hidden;
 	width:20%;
 }
 
 .navigation ul{
 	    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
 }
 
 .menu li:hover{
@@ -83,23 +97,14 @@
 	margin-bottom:25px;
 }
 
-/*ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}*/
-
-
-.navigation li:hover{
-		background:white;
-	color:black;
-	cursor:pointer;
+.navigation li{
+	padding:20px;
 }
 
-.navigation li{
-	margin-top:25px;
-	margin-bottom:25px;
+.navigation li:hover, .menu li:hover{
+	background:white;
+	color:black;
+	cursor:pointer;
 }
 
 .table{
@@ -107,13 +112,13 @@
 }
 
 .table tr{
-		border:1px solid black;
-			padding-right:50px;
+	border:1px solid black;
+	padding-right:50px;
 }
 
 .table td{
-		border:1px solid black;
-			padding-right:50px;
+	border:1px solid black;
+	padding-right:150px;
 }
 
 .table th{
